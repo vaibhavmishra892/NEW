@@ -1,0 +1,15 @@
+h1,h2{
+    color: red;
+    text-align: center;
+}
+.h{
+    color: blue;
+    text-underline-offset: 5px;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+background{
+    background-color: lightblue;
+}

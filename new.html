@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CivicConnect - Smart City Complaint Portal</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #002147; /* Deep navy blue (gov style) */
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    header img {
+      height: 55px;
+    }
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+      flex: 1;
+      text-align: center;
+    }
+    header .helpline {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #002147;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    /* Priority complaint buttons */
+    .women { background: #d62828; font-size: 20px; }
+    .ambulance { background: #f77f00; font-size: 20px; }
+    .police { background: #264653; font-size: 20px; }
+    /* Normal complaint buttons */
+    .potholes { background: #6c757d; }
+    .garbage { background: #2a9d8f; }
+    .water { background: #0077b6; }
+    .electricity { background: #ffba08; color: black; }
+    .education { background: #6a4c93; }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="gov_logo.png" alt="Gov of India Logo">
+  <h1>CivicConnect - Smart City Complaint Portal</h1>
+  <div class="helpline">📞 Helpline: 1800-180-0000</div>
+</header>
+
+<div class="container">
+  <h2>📢 Lodge Your Complaint</h2>
+  <button class="btn women">🚨 Women Safety</button>
+  <button class="btn ambulance">🚑 Ambulance</button>
+  <button class="btn police">🚓 Police</button>
+  <button class="btn potholes">🛣️ Potholes on Road</button>
+  <button class="btn garbage">🗑️ Garbage Collection</button>
+  <button class="btn water">💧 Water Issues</button>
+  <button class="btn electricity">⚡ Electricity Issues</button>
+  <button class="btn education">🏫 Education Issues</button>
+</div>
+
+<footer>
+  © 2025 Government of India | Designed for Smart City Initiatives
+</footer>
+
+</body>
+</html>
